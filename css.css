@@ -65,6 +65,7 @@ section{
     max-height: 250px;
     border: 1px solid #56719c;
     border-radius: 1.5rem;
+    position: relative;
 }
 .blogs:hover{
     box-shadow: 0 5px 10px rgba(33, 14, 209, 0.15), 0 5px 10px rgba(41, 28, 223, 0.12);
@@ -99,4 +100,9 @@ footer{
 }
 .wrap_footer p {
     font-size: 2.5rem;
+}
+.blogs a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
