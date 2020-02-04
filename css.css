@@ -1,65 +1,76 @@
-*{
+* {
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 10px;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
-    font-family:'Open Sans';
+    font-family: 'Open Sans';
 }
-.wrap{
-    width: 85%;
+
+.wrap {
+    width: 90%;
     margin: 0 auto;
-   /* border: 1px solid red;*/
+    /* border: 1px solid red;*/
 }
-header{
+
+header {
     height: 15vh;
     background-position: center;
     background-size: cover;
 }
-.logo{
+
+.logo {
     width: 40%;
     display: flex;
     align-items: center;
     height: 15vh;
     margin-left: 3%;
 }
+
 .logo img {
-    height: 80%;    
+    height: 80%;
 }
-.logo h1{
+
+.logo h1 {
     font-size: 7.4rem;
     color: #003399;
     text-transform: uppercase;
     display: inline-block;
-    margin-left:8%;
+    margin-left: 8%;
 }
-section{
+
+section {
     height: 1000px;
-    
+
 }
-.wrap_tilo{
+
+.wrap_tilo {
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: 80% 20%;
     grid-template-rows: 70% 30%;
     grid-template-areas:
-    "blog contact"
-    "blog claim";
+        "blog contact"
+        "blog claim";
 }
-.blog{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     width: 100%;
-   /* border: 1px solid red;*/
+    /* border: 1px solid red;*/
     grid-area: blog;
 }
-.blogs{
+
+.blogs {
     margin-top: 50px;
     margin-left: 50px;
-    min-width:150px;
+    min-width: 150px;
     max-width: 200px;
     min-height: 250px;
     max-height: 250px;
@@ -70,50 +81,109 @@ section{
     padding: 0rem 1rem;
     overflow: hidden;
 }
-.blogs:after{
-    content:'';
+
+.blogs:after {
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index:2;
+    z-index: 2;
     box-shadow: inset 0px -45px 50px #fff;
 }
-.blogs:hover{
+
+.blogs:hover {
     box-shadow: 0 5px 10px rgba(33, 14, 209, 0.15), 0 5px 10px rgba(41, 28, 223, 0.12);
 }
-.contact{
-    border: 1px solid #56719c;
+
+.contact {
     grid-area: contact;
-    display: grid;
-    margin-top: 5rem;
-    height: 60%;
-    width: 100%;
+    /*display: grid;*/
+   margin-top: 5rem;
+    height: 75%;
+   /* width: 100%;*/
+   min-width: 200px;
+   max-width: 250px;
+    padding: 0 3rem;
+    position: relative;
+   /* box-shadow:
+   -20px 20px 0 -17px rgb(243, 241, 241),
+   20px -20px 0 -17px rgb(243, 241, 241),
+   20px 20px 0 -20px #003399,
+   0px 0 0 2px #999;
+   box-shadow:
+  -20px -20px 0 -17px rgb(243, 241, 241),
+   20px 20px 0 -17px rgb(243, 241, 241),
+   0px 0px 0px 2px #999;*/
+   box-shadow:
+   0px 40px 0 2px rgb(243, 241, 241),
+   0px -40px 0 -35px rgb(243, 241, 241),
+    0px 0px 0px 2px #999;
 }
-.claim{
+
+.contact h2 {
+    font-size: 2rem;
+    padding: 0;
+}
+
+.contact pre {
+    font-size: 1.6rem;
+    display: block;
+    margin-left: 0;
+}
+
+.contact a {
+    font-size: 1.6rem;
+  /*  text-decoration: none;*/
+    color: #000;
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.claim {
     display: grid;
     grid-area: claim;
     border: 1px solid #56719c;
 }
+
+/*.frame {
+    padding: 0;
+    position: absolute;
+   width: 100%;
+    height: 50%;
+    bottom: 0;
+    /*text-align: none;
+}*/
 iframe{
-    width: 100%;
-    height:200%;
+   width: 100%;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+   width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
 }
-footer{
+
+footer {
     height: 12vh;
-   border-top: 1px solid rgba(65, 63, 63, 0.067) ;
+    border-top: 1px solid rgba(65, 63, 63, 0.067);
     font-size: 2.7rem;
 }
-.wrap_footer{
+
+.wrap_footer {
     width: 50%;
     margin: 0 auto;
     line-height: 1.5rem;
     text-align: center;
 }
+
 .wrap_footer p {
     font-size: 2.5rem;
 }
+
 .blogs a {
     position: absolute;
     width: 100%;
@@ -122,9 +192,11 @@ footer{
     cursor: pointer;
     left: 0;
 }
-.blogs h3{
+
+.blogs h3 {
     font-size: 2rem;
 }
+
 .blogs p {
     font-size: 1.4rem;
 }
