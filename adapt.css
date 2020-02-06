@@ -1,0 +1,8 @@
+@media (max-width: 1499px) {
+	.wrap_tilo {
+        grid-template-columns: 70% 30%;
+    }
+    .wrap{
+        width: 95%;
+    }
+}
