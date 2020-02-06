@@ -45,17 +45,20 @@ header {
 }
 
 section {
-    height: 1000px;
+    /*height: 1000px;*/
+    padding-bottom: 5rem;
 
 }
 
 .wrap_tilo {
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 70% 30%;
+    grid-template-rows: minmax(55rem,60rem) 30%;
     grid-template-areas:
         "blog contact"
         "blog claim";
+        border: 1px solid #56719c;*/
+       
 }
 
 .blog {
@@ -120,6 +123,9 @@ section {
    0px 40px 0 2px rgb(243, 241, 241),
    0px -40px 0 -35px rgb(243, 241, 241),
     0px 0px 0px 2px #999;
+    justify-self: right;
+    max-height: 50rem;
+   
 }
 
 .contact h2 {
@@ -146,6 +152,8 @@ section {
     display: grid;
     grid-area: claim;
     border: 1px solid #56719c;
+    max-height:30rem;
+    align-content: flex-start;
 }
 
 /*.frame {
