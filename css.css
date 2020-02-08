@@ -169,6 +169,7 @@ footer {
   border-top: 1px solid rgba(65, 63, 63, 0.067);
   font-size: 2rem;
   padding-bottom: 0.5rem;
+  background: rgba(65, 63, 63, 0.067);
 }
 
 .wrap_footer {
@@ -226,6 +227,7 @@ border: 1px solid #003399;
   margin: 0rem auto;
   display: inline-block;
   resize: none;
+  border-radius: 1rem;
 }
 .form_but{
     margin-top: 0;
@@ -239,6 +241,7 @@ border: 1px solid #003399;
  height: 3rem;
  border: 1px solid #003399;
   display: inline-block;
+  border-radius: 1rem;
 }
 #button_form {
     color: white;
