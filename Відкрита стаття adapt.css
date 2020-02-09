@@ -41,8 +41,7 @@
 
     .blog {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
         width: 100%;
         justify-items: center;
         /* border: 1px solid red;*/
@@ -121,10 +120,10 @@
 
         margin-left: 0px;
         min-width: 200px;
-        max-width: 250px;
+        max-width: 450px;
         min-height: 300px;
-        max-height: 300px;
-        padding: 0rem 3rem;
+       
+        padding: 0rem 1rem;
     }
 
     .blogs h3 {
@@ -165,3 +164,4 @@
         margin-top: 1rem;
     }
 }
+  

@@ -33,7 +33,7 @@ header {
 }
 
 .logo img {
-  height: 80%;
+  height: 60%;
 }
 
 .logo h1 {
@@ -47,7 +47,7 @@ header {
 section {
   /*height: 1000px;*/
   padding-bottom: 5rem;
-  background:rgba(65, 63, 63, 0.067);
+  background: rgba(65, 63, 63, 0.067);
 }
 
 .wrap_tilo {
@@ -57,7 +57,7 @@ section {
   grid-template-areas:
     "blog contact"
     "blog claim";
-/*  border: 1px solid #56719c;*/
+  /*  border: 1px solid #56719c;*/
 }
 
 .blog {
@@ -72,7 +72,7 @@ section {
 .blogs {
   margin-top: 50px;
   margin-left: 50px;
-  min-width: 150px;
+  min-width: 200px;
   max-width: 200px;
   min-height: 250px;
   max-height: 250px;
@@ -199,6 +199,7 @@ footer {
 .blogs p {
   font-size: 1.4rem;
 }
+
 .claim {
   display: grid;
   grid-area: claim;
@@ -216,42 +217,47 @@ footer {
    20px 20px 0 -20px #003399,
    0px 0 0 2px #999;*/
 }
+
 .claim h3 {
   font-size: 1.6rem;
   margin-bottom: 0;
 }
+
 #textarea {
   width: 90%;
   height: 70%;
-border: 1px solid #003399;
+  border: 1px solid #003399;
   margin: 0rem auto;
   display: inline-block;
   resize: none;
   border-radius: 1rem;
 }
-.form_but{
-    margin-top: 0;
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-   /* border: 1px solid #003399;*/
-    margin-top: -4rem;
+
+.form_but {
+  margin-top: 0;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid #003399;*/
+  margin-top: -4rem;
 }
+
 #input {
- height: 3rem;
- border: 1px solid #003399;
+  height: 3rem;
+  border: 1px solid #003399;
   display: inline-block;
   border-radius: 1rem;
 }
+
 #button_form {
-    color: white;
-    font-size: 1.6rem;
-    border-radius: 1rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background: #3b4453;
-    height: 3rem;
-    margin-left: 1rem;
- width: 30%;
-} 
+  color: white;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #3b4453;
+  height: 3rem;
+  margin-left: 1rem;
+  width: 30%;
+}
