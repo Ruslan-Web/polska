@@ -83,17 +83,20 @@
         font-size: 2rem;
     }
 
-    #input {
+    .input {
         width: 60%;
+        height: 3.5rem;
     }
 
-    #button_form {
+    .button_form {
         width: 35%;
+        height: 3.5rem;
     }
 
     footer {
         background: #e1edff;
     }
+    
 }
 
 @media (max-width: 991px) {
@@ -138,6 +141,14 @@
     .wrap_footer {
         width: 100%;
     }
+
+    .button_form {
+        height: 3.5rem;
+    }
+
+    .input {
+        height: 3.5rem;
+    }
 }
 
 @media (max-width: 424px) {
@@ -154,13 +165,16 @@
     .logo h1 {
         font-size: 4.5rem;
     }
+
     .claim {
-        min-width: 25rem;
+        min-width: 30rem;
     }
-    #input{
+
+    .input {
         width: 100%;
     }
-    #button_form{
+
+    .button_form {
         width: 50%;
         margin-top: 1rem;
     }

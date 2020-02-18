@@ -206,50 +206,45 @@ footer {
   border: 3px solid #56719c;
   border-radius: 1rem;
   max-height: 30rem;
-  /* align-content: flex-start;*/
   min-width: 30rem;
   max-width: 30rem;
   justify-self: self-end;
   text-align: center;
-  /*box-shadow:
-   -20px 20px 0 -17px rgb(243, 241, 241),
-   20px -20px 0 -17px rgb(243, 241, 241),
-   20px 20px 0 -20px #003399,
-   0px 0 0 2px #999;*/
+  
 }
 
 .claim h3 {
   font-size: 1.6rem;
   margin-bottom: 0;
 }
-
-#textarea {
+.claim_one{
+  /* border: 1px solid #003399; */
   width: 90%;
   height: 70%;
+  margin: 0rem auto;
+  display: inline-block;
+}
+.textarea {
+  width: 100%;
+  height: 100%;
   border: 1px solid #003399;
   margin: 0rem auto;
   display: inline-block;
   resize: none;
   border-radius: 1rem;
 }
-
-.form_but {
-  margin-top: 0;
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-  /* border: 1px solid #003399;*/
-  margin-top: -4rem;
-}
-
-#input {
+.input {
   height: 3rem;
   border: 1px solid #003399;
   display: inline-block;
   border-radius: 1rem;
+  width: 68%;
 }
-
-#button_form {
+.claim_two{
+  width: 90%;
+  margin: 1rem auto;
+}
+.button_form {
   color: white;
   font-size: 1.6rem;
   border-radius: 1rem;
@@ -258,6 +253,6 @@ footer {
   cursor: pointer;
   background: #3b4453;
   height: 3rem;
-  margin-left: 1rem;
-  width: 30%;
+  width: 29%;
+  margin-left: 0.5rem;
 }
