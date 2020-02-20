@@ -240,6 +240,7 @@ footer {
   border-radius: 1rem;
   width: 68%;
   resize: none;
+  margin: 0rem auto;
 }
 .claim_two{
   width: 90%;
