@@ -239,6 +239,7 @@ footer {
   display: inline-block;
   border-radius: 1rem;
   width: 68%;
+  resize: none;
 }
 .claim_two{
   width: 90%;
