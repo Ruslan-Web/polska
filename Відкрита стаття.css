@@ -1,66 +1,6 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-size: 10px;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans";
-  }
-  
-  .wrap {
-    width: 90%;
-    margin: 0 auto;
-    /* border: 1px solid red;*/
-  }
-  
-  header {
-    height: 15vh;
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .logo {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    height: 15vh;
-    margin-left: 3%;
-  }
-  
-  .logo img {
-    height: 60%;
-  }
-  
-  .logo h1 {
-    font-size: 7.4rem;
-    color: #003399;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-left: 8%;
-  }
-  
-  section {
-    /*height: 1000px;*/
-    padding-bottom: 5rem;
-    background: rgba(65, 63, 63, 0.067);
-  }
-  
-  .wrap_tilo {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    grid-template-rows: minmax(55rem, 60rem) 30%;
-    grid-template-areas:
-      "blog contact"
-      "blog claim";
-    /*  border: 1px solid #56719c;*/
-  }
+ 
  /* -----------------------------------------------------------*/ 
-  .blog {
+  .blog1 {
     display: grid;
     grid-template-columns: 1fr ;
     width: 100%;
@@ -68,7 +8,7 @@
     grid-area: blog;
   }
   
-  .blogs {
+  .blogs1 {
     margin-top: 50px;
     border: 2px solid #56719c;
     border-radius: 1.5rem;
@@ -77,160 +17,11 @@
     width: 90%;
   }
 
-  .blogs h3 {
+  .blogs1 h3 {
     font-size: 3rem;
   }
   
-  .blogs p {
+  .blogs1 p {
     font-size: 1.6rem;
   }
 /*-------------------------------------------------------------*/
-
- 
-  
-  .contact {
-    grid-area: contact;
-    /*display: grid;*/
-    margin-top: 5rem;
-    height: 75%;
-    /* width: 100%;*/
-    min-width: 200px;
-    max-width: 250px;
-    padding: 0 3rem;
-    position: relative;
-    /* box-shadow:
-     -20px 20px 0 -17px rgb(243, 241, 241),
-     20px -20px 0 -17px rgb(243, 241, 241),
-     20px 20px 0 -20px #003399,
-     0px 0 0 2px #999;
-     box-shadow:
-    -20px -20px 0 -17px rgb(243, 241, 241),
-     20px 20px 0 -17px rgb(243, 241, 241),
-     0px 0px 0px 2px #999;*/
-    box-shadow: 0px 40px 0 2px rgb(243, 241, 241),
-      0px -40px 0 -35px rgb(243, 241, 241), 0px 0px 0px 2px #003399;
-    justify-self: right;
-    max-height: 50rem;
-  }
-  
-  .contact h2 {
-    font-size: 2rem;
-    padding: 0;
-  }
-  
-  .contact pre {
-    font-size: 1.6rem;
-    display: block;
-    margin-left: 0;
-  }
-  
-  .contact a {
-    font-size: 1.6rem;
-    /*  text-decoration: none;*/
-    color: #000;
-    display: inline-block;
-    margin-top: 0;
-    padding-top: 0;
-  }
-  
-  /*.frame {
-      padding: 0;
-      position: absolute;
-     width: 100%;
-      height: 50%;
-      bottom: 0;
-      /*text-align: none;
-  }*/
-  iframe {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    bottom: 0;
-    left: 0;
-  }
-  
-  footer {
-    /*height: 12vh;*/
-    border-top: 1px solid rgba(65, 63, 63, 0.067);
-    font-size: 2rem;
-    padding-bottom: 0.5rem;
-    background: rgba(65, 63, 63, 0.067);
-  }
-  
-  .wrap_footer {
-    width: 50%;
-    margin: 0 auto;
-    line-height: 1.5rem;
-    text-align: center;
-  }
-  
-  .wrap_footer p {
-    font-size: 2.5rem;
-  }
-  
- 
-  
-  .claim {
-    display: grid;
-    grid-area: claim;
-    border: 3px solid #56719c;
-    border-radius: 1rem;
-    max-height: 30rem;
-    /* align-content: flex-start;*/
-    min-width: 30rem;
-    max-width: 30rem;
-    justify-self: self-end;
-    text-align: center;
-    /*box-shadow:
-     -20px 20px 0 -17px rgb(243, 241, 241),
-     20px -20px 0 -17px rgb(243, 241, 241),
-     20px 20px 0 -20px #003399,
-     0px 0 0 2px #999;*/
-  }
-  
-  .claim h3 {
-    font-size: 1.6rem;
-    margin-bottom: 0;
-  }
-  
-  #textarea {
-    width: 90%;
-    height: 70%;
-    border: 1px solid #003399;
-    margin: 0rem auto;
-    display: inline-block;
-    resize: none;
-    border-radius: 1rem;
-  }
-  
-  .form_but {
-    margin-top: 0;
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-    /* border: 1px solid #003399;*/
-    margin-top: -4rem;
-  }
-  
-  #input {
-    height: 3rem;
-    border: 1px solid #003399;
-    display: inline-block;
-    border-radius: 1rem;
-  }
-  
-  #button_form {
-    color: white;
-    font-size: 1.6rem;
-    border-radius: 1rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background: #3b4453;
-    height: 3rem;
-    margin-left: 1rem;
-    width: 30%;
-  }
