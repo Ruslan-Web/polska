@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans';
+}
+
+html {
+    font-size: 10px;
+}
+
+.claim_go {
+    width: 76rem;
+    height: 40rem;
+    border: 3px solid #003399;
+    border-radius: 2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.claim_go h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #003399;
+}
+
+.claim_go p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.claim_go a {
+    width: 15rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-decoration: none;
+    display: block;
+    margin-top: 5rem;
+    border: 1px solid #003399;
+    padding: 5px 5px;
+    color: #003399;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 620px) {
+    html {
+        font-size: 7.5px;
+    }
+
+    .claim_go {
+        height: 30rem;
+    }
+
+    .claim_go h2 {
+        font-size: 4rem;
+    }
+
+    .claim_go p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 470px) {
+    .claim_go {
+        height: 25rem;
+    }
+
+    .claim_go h2 {
+        font-size: 3.5rem;
+    }
+
+    .claim_go p {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 425px) {
+    .claim_go {
+        height: 25rem;
+    }
+
+    .claim_go h2 {
+        font-size: 3rem;
+    }
+
+    .claim_go p {
+        font-size: 1.8rem;
+    }
+    .claim_go a {
+        width: 13rem;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        text-decoration: none;
+        display: block;
+        margin-top: 5rem;
+        border: 1px solid #003399;
+       
+        color: #003399;
+        border-radius: 1rem;
+    }
+    
+}
+@media (max-width: 375px) {
+    .claim_go {
+        height: 25rem;
+    }
+
+    .claim_go h2 {
+        font-size: 2.7rem;
+    }
+
+    .claim_go p {
+        font-size: 1.8rem;
+    }
+}
