@@ -24,3 +24,27 @@
   font-size: 1.6rem;
 }
 /*-------------------------------------------------------------*/
+ .wrap_tilo {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: minmax(55rem, 60rem) 1fr 1fr;
+  grid-template-areas:
+    "blog contact"
+    "blog img"
+    "blog claim";
+    
+} 
+.block_img{
+  grid-area: img;
+  overflow: hidden;
+  position: relative;
+  width: 37rem;
+  height: 25rem;
+  margin-bottom: 7rem;
+  justify-self: end;
+  background-position: center;
+}
+.block_img img{
+  left: 0;
+  top: 0;
+} 

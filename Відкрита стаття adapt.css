@@ -7,9 +7,14 @@
         width: 95%;
     }
 
-    .blogs {
+    .blogs1 {
         width: 100%;
     }
+    .block_img{
+       
+        width: 32rem;
+        height: 25rem;
+      }
 }
 
 @media (max-width: 1199px) {
@@ -35,27 +40,38 @@
     .wrap_tilo {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr auto auto;
+        grid-template-rows: 1fr auto auto auto;
         grid-template-areas:
             "blog "
+            "img"
             "contact"
             "claim";
         width: 100%;
     }
+    /*---------------------------*/
+    .block_img{
+        margin-top: 5rem;
+        justify-self: center;
+        width: 37rem;
+        height: 25rem;
+      }
+    /*--------------------*/
 
-    .blog {
+    .blog1 {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
         justify-items: center;
         /* border: 1px solid red;*/
         grid-area: blog;
+        
     }
 
-    .blogs {
+    .blogs1 {
         background: white;
         margin-left: 0px;
         width: 90%;
+        justify-self: center;
     }
 
     .contact {
@@ -117,11 +133,11 @@
         height: 60%;
     }
 
-    .blog {
+    .blog1 {
         grid-template-columns: 1fr;
     }
 
-    .blogs {
+    .blogs1 {
 
         margin-left: 0px;
         min-width: 200px;
@@ -131,11 +147,11 @@
         padding: 0rem 1rem;
     }
 
-    .blogs h3 {
+    .blogs1 h3 {
         font-size: 2rem;
     }
 
-    .blogs p {
+    .blogs1 p {
         font-size: 1.4rem;
     }
 
