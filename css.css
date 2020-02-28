@@ -41,7 +41,7 @@ header {
 }
 
 .logo h1 {
-  font-size: 7.4rem;
+  font-size: 7rem;
   color: #003399;
   text-transform: uppercase;
   display: inline-block;
@@ -245,7 +245,7 @@ font-weight: 700;
 .claim_one {
   /* border: 1px solid #003399; */
   width: 90%;
-  height: 70%;
+  height: 10%;
   margin: 0rem auto;
   display: inline-block;
 }
@@ -273,6 +273,7 @@ font-weight: 700;
 .claim_two {
   width: 90%;
   margin: 1rem auto;
+  resize: none;
 }
 
 .button_form {
@@ -286,4 +287,6 @@ font-weight: 700;
   height: 3rem;
   width: 29%;
   margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
