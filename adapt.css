@@ -24,10 +24,6 @@
         font-size: 6rem;
     }
 
-    section {
-        background: #eae2ef;
-    }
-
     .wrap_tilo {
         display: grid;
         grid-template-columns: 1fr;
@@ -49,8 +45,8 @@
         grid-area: blog;
     }
 
-    .blogs {
-        background: white;
+     .blogs {
+        
         margin-left: 0px;
     }
 
@@ -135,7 +131,7 @@
     }
 
     .blogs p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     .wrap_footer {
@@ -149,6 +145,9 @@
     .input {
         height: 3.5rem;
     }
+    .blogs img {
+       height: 100%;
+      }
 }
 
 @media (max-width: 424px) {
