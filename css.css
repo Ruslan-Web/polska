@@ -230,13 +230,14 @@ footer {
   left: 0;
   bottom: 0;
 }
+
 .blogs .mask {
   position: absolute;
   z-index: -5;
   left: 0;
- background: rgba(0,0,0,.4); 
- width: 100%;
- height: 100%;
+  background: rgba(0, 0, 0, .4);
+  width: 100%;
+  height: 100%;
 
 }
 
@@ -245,7 +246,7 @@ footer {
   grid-area: claim;
   border: 3px solid #56719c;
   border-radius: 1rem;
-  max-height: 30rem;
+  max-height: 37rem;
   min-width: 30rem;
   max-width: 30rem;
   justify-self: self-end;

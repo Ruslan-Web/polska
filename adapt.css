@@ -117,12 +117,7 @@
     }
 
     .blogs {
-
-        margin-left: 0px;
-        min-width: 200px;
-        max-width: 250px;
-        min-height: 300px;
-        max-height: 300px;
+        margin-left: 0px; 
         padding: 0rem 3rem;
     }
 
