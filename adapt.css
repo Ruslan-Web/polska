@@ -97,7 +97,9 @@
     footer {
         background: #e1edff;
     }
-    
+    section {
+        background: #b5adb854;
+      }
 }
 
 @media (max-width: 991px) {
