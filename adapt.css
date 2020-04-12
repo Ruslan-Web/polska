@@ -67,7 +67,7 @@
         border-top: 1rem solid #c5a0e0;
         background: rgba(65, 63, 63, 0.067);
         text-align: center;
-
+        margin-top: 0;
     }
 
     iframe {

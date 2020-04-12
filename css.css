@@ -124,7 +124,7 @@ section {
 .contact {
   grid-area: contact;
   /*display: grid;*/
- /*margin-top: 5rem;*/
+margin-top: 5rem;
   height: 75%;
   /* width: 100%;*/
   min-width: 300px;
@@ -135,6 +135,7 @@ section {
   max-height: 50rem;
   border: 2px solid #003399;
   border-radius: 5px;
+
 }
 
 .contact h2 {
