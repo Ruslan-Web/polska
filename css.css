@@ -49,8 +49,6 @@ header {
 }
 
 section {
-  /*height: 1000px;*/
-  padding-bottom: 2rem;
   /*background: rgba(65, 63, 63, 0.067);*/
   background-position: center;
   background-size: cover;
@@ -73,6 +71,7 @@ section {
   width: 100%;
   /* border: 1px solid red;*/
   grid-area: blog;
+  padding-bottom: 2rem;
 }
 
 .blogs {
@@ -125,11 +124,11 @@ section {
 .contact {
   grid-area: contact;
   /*display: grid;*/
-  margin-top: 5rem;
+ /*margin-top: 5rem;*/
   height: 75%;
   /* width: 100%;*/
-  min-width: 200px;
-  max-width: 250px;
+  min-width: 300px;
+  max-width: 300px;
   padding: 0 3rem;
   position: relative;
   justify-self: right;
